@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUXFxcVFRUXFRUVFRUVFRUXFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKzc3LTc3Nys3NysrKysrKystKy0tKysrLSsrLSsrKysrKysrKystKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIH/8QAHhABAQEBAAIDAQEAAAAAAAAAAAERAjFBIVGR8BL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A4oklRJKCApAlChUoYhAisBYjhUZJQoxFQGS0KRAiAAbAoGFIgFaQMogVJKCApAkkCSQJI2CgpAkmpAEWGRKiWGIETeUASIoTUisEZqasEFGDGsM5EYWGIVkNDACrVgEZRFRQocGAkUAWoyAkkIkkCKxCoxKKiMMiwEisBFG8qKLFhwBFhwyAyarFgrNTWIGCcZwQBqixAUNUWAKKcCARWAEkKlqQhCQIyAgUlFFCoQMigjVFWGLEqKRus41zACwmwAeYlYoKrGqJAZgxoVBYDgorNDVgEZxUhFFBVEZUhCCBqAJKgcSQqhoOCJYioTyDAMpwQyqGRKUg1fpDDVDOUpSB5g6UOAKLyTaDPtTwulIDMowrQZwNMoLplqs0BYKaKgoEgCS1BGBAkkCIhgpwgqihgagp5MglMUTWAwQt4xrW6osMBoGw8s61L6AXldKoBIyRQMzGbGtZBmiw0IBWLVRWaDRUQArQGAhFSSESSBGiHRSpQ0qJqRlqUDDWWuVDqiigN4ZPf4L0Io1CJFQMhurmi0Gup6/WZQbACkXtf6+AE+WaVAZBoQVjJ6rIqFNFQAp0CKhJFSxGUQRKoFCDBUVqVCYzGgMUMUVSazGpRDDWW7ftQSGUVAWtZtPIBU2/32KCoilWgmWmaAFNCAopVqKziVABKqCBEIqSQiSQJJWCnTKNUVCQ1yClIi0GkCqlqUWKdCHUFoEjldKNWgWiAQjEFo0S4NFVB0AFp6jOoIJUQI4BQkkRAmQAkgSSBGhCk6DFQwyiLAMIQrRZ04qHSzFBTKcZMEOq0YKBqC0EpRixFQVFBKqigrRUoIEliKkkIlaloJJAlEgNCQq0ggZTrJqoVKEDWtMGAVWdKqdMZVoNVChA6NSA6NUGiJIaC1DUCFSRUokIksQJIWAaoEBh6SAUVIDTyUKoElRQpA314E8JAFPCQHk9eUhV0ykBp58JAzAkCgSEPSqQM1JIHle0gASAtRJcH//Z");
+    background-size: cover
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    border: 0px solid black;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-bottom: 1%;
+}
+
+
+
+form #fname {
+    width: 49%;
+    margin-left: 4px;
+    margin-top: 12%;
+    color: white;
+}
+
+form #lname {
+    width: 49%;
+    color: white;
+}
+
+form #email {
+    margin-left: 4px;
+    width: 49%;
+    color: white;
+}
+
+form #password {
+    width: 49%;
+    margin-top: 6px;
+    color: white;
+}
+
+form #message {
+    width: 98%;
+    margin-top: 6px;
+    margin: 4px;
+    color: white;
+}
+
+form .submit {
+    width: 98%;
+    margin-top: 6px;
+    margin-left: 4px;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+@media only screen and (max-width:1024px) and (min-width:240px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUXFxcVFRUXFRUVFRUVFRUXFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKzc3LTc3Nys3NysrKysrKystKy0tKysrLSsrLSsrKysrKysrKystKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIH/8QAHhABAQEBAAIDAQEAAAAAAAAAAAERAjFBIVGR8BL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A4oklRJKCApAlChUoYhAisBYjhUZJQoxFQGS0KRAiAAbAoGFIgFaQMogVJKCApAkkCSQJI2CgpAkmpAEWGRKiWGIETeUASIoTUisEZqasEFGDGsM5EYWGIVkNDACrVgEZRFRQocGAkUAWoyAkkIkkCKxCoxKKiMMiwEisBFG8qKLFhwBFhwyAyarFgrNTWIGCcZwQBqixAUNUWAKKcCARWAEkKlqQhCQIyAgUlFFCoQMigjVFWGLEqKRus41zACwmwAeYlYoKrGqJAZgxoVBYDgorNDVgEZxUhFFBVEZUhCCBqAJKgcSQqhoOCJYioTyDAMpwQyqGRKUg1fpDDVDOUpSB5g6UOAKLyTaDPtTwulIDMowrQZwNMoLplqs0BYKaKgoEgCS1BGBAkkCIhgpwgqihgagp5MglMUTWAwQt4xrW6osMBoGw8s61L6AXldKoBIyRQMzGbGtZBmiw0IBWLVRWaDRUQArQGAhFSSESSBGiHRSpQ0qJqRlqUDDWWuVDqiigN4ZPf4L0Io1CJFQMhurmi0Gup6/WZQbACkXtf6+AE+WaVAZBoQVjJ6rIqFNFQAp0CKhJFSxGUQRKoFCDBUVqVCYzGgMUMUVSazGpRDDWW7ftQSGUVAWtZtPIBU2/32KCoilWgmWmaAFNCAopVqKziVABKqCBEIqSQiSQJJWCnTKNUVCQ1yClIi0GkCqlqUWKdCHUFoEjldKNWgWiAQjEFo0S4NFVB0AFp6jOoIJUQI4BQkkRAmQAkgSSBGhCk6DFQwyiLAMIQrRZ04qHSzFBTKcZMEOq0YKBqC0EpRixFQVFBKqigrRUoIEliKkkIlaloJJAlEgNCQq0ggZTrJqoVKEDWtMGAVWdKqdMZVoNVChA6NSA6NUGiJIaC1DUCFSRUokIksQJIWAaoEBh6SAUVIDTyUKoElRQpA314E8JAFPCQHk9eUhV0ykBp58JAzAkCgSEPSqQM1JIHle0gASAtRJcH//Z");
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    div {
+        border: 0px solid black;
+        background-color: blueviolet;
+        margin-top: 10px;
+        margin-left: 18%;
+        margin-right: 18%;
+        padding-bottom: 1%;
+    }
+
+
+
+    form #fname {
+        width: 96.3%;
+        margin-left: 4px;
+        margin-top: 12%;
+        color: white;
+    }
+
+    form #lname {
+        width: 96.3%;
+        color: white;
+        margin-left: 4px;
+        margin-top: 6px;
+    }
+
+    form #email {
+        margin-left: 4px;
+        width: 96.3%;
+        color: white;
+        margin-top: 6px;
+    }
+
+    form #password {
+        width: 96.3%;
+        margin-top: 6px;
+        color: white;
+        margin-left: 4px;
+    }
+
+    form #message {
+        width: 96.5%;
+        margin-top: 6px;
+        margin: 4px;
+        color: white;
+    }
+
+    form .submit {
+        width: 98%;
+        margin-top: 6px;
+        margin-left: 4px;
+        color: white;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}

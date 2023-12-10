@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: wheat;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 39px;
+}
+
+.social1 a {
+    color: wheat;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.social1 i {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 41%;
+    margin-top: 6%;
+}
+
+.social2 a {
+    color: wheat;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.social2 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 41%;
+    margin-top: 3%;
+}
+
+.social3 a {
+    color: wheat;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.social3 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 41%;
+    margin-top: 3%;
+}
+
+.social4 a {
+    color: wheat;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.social4 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 41%;
+    margin-top: 3%;
+}
+
+.social5 a {
+    color: wheat;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.social5 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 41%;
+    margin-top: 3%;
+}
+
+.social6 a {
+    color: wheat;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.social6 i {
+    color: white;
+    font-size: 24px;
+    margin-left: 41%;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width:1024px) and (min-width:240px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        color: wheat;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 30px;
+    }
+
+    .social1 a {
+        color: wheat;
+        font-size: 30px;
+        margin-left: 9px;
+    }
+
+    .social1 i {
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 8%;
+        margin-top: 6%;
+    }
+
+    .social2 a {
+        color: wheat;
+        font-size: 30px;
+        margin-left: 9px;
+    }
+
+    .social2 i {
+        color: white;
+        font-size: 24px;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+
+    .social3 a {
+        color: wheat;
+        font-size: 30px;
+        margin-left: 9px;
+    }
+
+    .social3 i {
+        color: white;
+        font-size: 24px;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+
+    .social4 a {
+        color: wheat;
+        font-size: 30px;
+        margin-left: 9px;
+    }
+
+    .social4 i {
+        color: white;
+        font-size: 24px;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+
+    .social5 a {
+        color: wheat;
+        font-size: 30px;
+        margin-left: 9px;
+    }
+
+    .social5 i {
+        color: white;
+        font-size: 24px;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+
+    .social6 a {
+        color: wheat;
+        font-size: 30px;
+        margin-left: 9px;
+    }
+
+    .social6 i {
+        color: white;
+        font-size: 24px;
+        margin-left: 8%;
+        margin-top: 3%;
+    }
+}

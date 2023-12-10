@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    animation: h1 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes h1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 500px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+ .ACHIEVEMENTS-1 img {
+    width: 550px;
+    height: 400px;
+    margin-left: 24%;
+    margin-top: 6%;
+    transition: 0.3s;
+}
+
+.ACHIEVEMENTS-1 img:hover {
+    transform: scale(1.3) rotate(1deg);
+}
+
+.ACHIEVEMENTS-2 img {
+    width: 550px;
+    height: 400px;
+    margin-left: 24%;
+    margin-top: 6%;
+}
+
+.ACHIEVEMENTS-3 img {
+    width: 550px;
+    height: 600px;
+    margin-left: 24%;
+    margin-top: 6%;
+}
+
+.ACHIEVEMENTS-4 img {
+    width: 550px;
+    height: 600px;
+    margin-left: 24%;
+    margin-top: 6%;
+}
+
+.ACHIEVEMENTS-5 img {
+    width: 550px;
+    height: 400px;
+    margin-left: 24%;
+    margin-top: 6%;
+}
+
+.ACHIEVEMENTS-6 img {
+    width: 550px;
+    height: 400px;
+    margin-left: 24%;
+    margin-top: 6%;
+}
+
+@media only screen and (max-width:1024px) and (min-width:240px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+    }
+
+    .h1 {
+        color: wheat;
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+
+    .ACHIEVEMENTS-1 img {
+        width: 650px;
+        height: 450px;
+        margin-left: 12%;
+        margin-top: 6%;
+    }
+
+    .ACHIEVEMENTS-2 img {
+        width: 650px;
+        margin-left: 12%;
+        margin-top: 6%;
+    }
+
+    .ACHIEVEMENTS-3 img {
+        width: 650px;
+        margin-left: 12%;
+        margin-top: 6%;
+
+    }
+
+    .ACHIEVEMENTS-4 img {
+        width: 650px;
+        margin-left: 12%;
+        margin-top: 6%;
+    }
+
+    .ACHIEVEMENTS-5 img {
+        width: 650px;
+        margin-left: 12%;
+        margin-top: 6%;
+    }
+
+    .ACHIEVEMENTS-6 img {
+        width: 650px;
+        margin-left: 12%;
+        margin-top: 6%;
+    }
+
+}
